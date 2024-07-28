@@ -13,7 +13,14 @@ Programs:
   MacOS, which never upgraded to Bash 4.x but instead switched the default
   user shell to Zsh.
 
+XXX `sed` notes
+
+According to the [Apple OSS releases][aossrel] page, MacOS 10.12
+(2016, "Sierra") uses the `text_cmds-97` version of
+[apple-oss-distributions/text_cmds][text_cmds].
 
 
 <!-------------------------------------------------------------------->
+[aossrel]: https://opensource.apple.com/releases/
 [bash-un]: https://github.com/bminor/bash.git
+[text_cmds]: https://github.com/apple-oss-distributions/text_cmds/tree/text_cmds-97
